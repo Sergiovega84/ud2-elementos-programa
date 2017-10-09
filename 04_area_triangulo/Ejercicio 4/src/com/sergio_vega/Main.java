@@ -8,18 +8,18 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 	//
-        int a = 0;
-        int b = 0;
+        double a = 0;
+        double b = 0;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.print("indroduce base ");
-        a = Integer.parseInt(br.readLine());
+        a = Double.parseDouble(br.readLine());
 
         System.out.print("introduce altura ");
-        b = Integer.parseInt(br.readLine());
+        b = Double.parseDouble(br.readLine());
 
-        int x = (a + b) / 2;
+        double x = (a * b) / 2;
 
         System.out.print("el área del triangulo es " +x );
 
