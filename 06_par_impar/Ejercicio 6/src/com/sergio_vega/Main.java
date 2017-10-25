@@ -11,9 +11,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.print("Introduce número ");
-        double x = Double.parseDouble(br.readLine());
+        int x = Integer.parseInt(br.readLine());
 
-        if (0 == x % 2) {
+        if (x % 2 == 0) {
             System.out.print( +x+ " es un número par ");
         } else {
             System.out.print(+x+ " es un número es impar ");
