@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Random r = new Random();
-        int aleatorio = r.nextInt(100) + 1;
+        int aleatorio = r.nextInt(101);
         String respuesta;
         int n = 0;
         int x = 0;
