@@ -9,18 +9,18 @@ public class Main {
     public static void main(String[] args) throws IOException {
 	//
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int contador = 0;
-        int resultado = 0;
-        int x = 0;
-        System.out.print("Introduce número de valores a sumar: ");
+        int z = 0;
+
+        System.out.print("¿Cuantos valores hay que sumar?: ");
         int y = Integer.parseInt(br.readLine());
-        do {
-            System.out.print("Escribe valor: ");
-            x = Integer.parseInt(br.readLine());
-                contador = contador + 1;
-                resultado = resultado + x;
-        } while (contador < y);
-        System.out.println("El resultado es: " +resultado);
+
+        for (int x = 0; x < y; x = x + 1) {
+
+            System.out.print("Número: ");
+            int n = Integer.parseInt(br.readLine());
+            z += n;
+        }
+        System.out.println("El resultado es " + z);
 
     }
 }
