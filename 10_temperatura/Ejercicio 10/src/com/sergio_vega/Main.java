@@ -14,17 +14,15 @@ public class Main {
         char y = br.readLine().charAt(0);
 
         if (y == 'F') {
-            x = x * 1.8;
+            x = x * 1.8 + 32;
             System.out.print("El resultado en grados Fahrenheit es: " + x);
         } else {
             if (y == 'K') {
                 x = x + 273.15;
                 System.out.print("El resultado en grados Kelvin es: " + x);
             } else {
-                if (y != 'F' || y != 'K') {
                     System.out.print("Debes introducir F o K");
                 }
             }
         }
     }
-}
