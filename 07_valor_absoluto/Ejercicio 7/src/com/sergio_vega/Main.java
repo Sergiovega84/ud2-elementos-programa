@@ -20,8 +20,6 @@ public class Main {
                 System.out.println("El valor absoluto es: " +y);
             } else if (x > 0) {
                 System.out.println("El valor absoluto es: " +x);
-            } else {
-                // 0
             }
         } while (x != 0);
     }
